@@ -1,10 +1,10 @@
 #Inherit from vendor
-$(call inherit-product, vendor/samsung/j5ltexx/j5ltexx-vendor.mk)
+$(call inherit-product, vendor/samsung/j5nltexx/j5nltexx-vendor.mk)
 
 # Inherit from common
 $(call inherit-product, device/samsung/j5-common/device-common.mk)
 
-LOCAL_PATH := device/samsung/j5ltexx
+LOCAL_PATH := device/samsung/j5nltexx
 
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
