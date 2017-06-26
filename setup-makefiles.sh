@@ -19,7 +19,7 @@
 set -e
 
 # Required!
-export DEVICE=j5nltexx
+export DEVICE=j5nlte
 export DEVICE_COMMON=j5-common
 export VENDOR=samsung
 

@@ -1,10 +1,10 @@
 # Inherit from common
 include device/samsung/j5-common/BoardConfigCommon.mk
 
-LOCAL_PATH := device/samsung/j5nltexx
+LOCAL_PATH := device/samsung/j5nlte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j5nltexx,j5nlte
+TARGET_OTA_ASSERT_DEVICE := j5nlte,j5nltexx
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5nlte_eur_defconfig
