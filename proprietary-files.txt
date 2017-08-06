@@ -9,6 +9,9 @@ etc/Hdmi_cal.acdb
 etc/Headset_cal.acdb
 etc/Speaker_cal.acdb
 
+# NFC (From https://github.com/NXPNFCProject/NXPNFCC_FW/blob/master/pn548ad/32-bit/libpn548ad_fw.so)
+vendor/firmware/libpn548ad_fw.so|88a35cebace27c3a93439972660f034b
+
 # Qualcomm framework
 vendor/lib/libdiag.so
 vendor/lib/libdsutils.so
