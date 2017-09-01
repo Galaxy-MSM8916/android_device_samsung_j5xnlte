@@ -30,8 +30,8 @@ vendor/lib/libqmi.so
 bin/rild
 lib/libril.so
 lib/librilutils.so
-lib/libsec-ril.so
-lib/libsec-ril-dsds.so
+lib/libsec-ril.so|ee8f5ca436c8bc88caa863d063964652
+lib/libsec-ril-dsds.so|b48ba5378aee5a35dd71cfeeff7b96d8
 
 # Sensors - J500HXXU1APE5_J500HOXE1APE5_J500HXXU1APC2
 lib/hw/sensors.msm8916.so|fb5fbe6b832c242e18ab0a5cb53ad91c
