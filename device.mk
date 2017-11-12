@@ -14,6 +14,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 #NFC
 PRODUCT_PACKAGES += \
+	android.hardware.nfc@1.0-impl \
+	android.hardware.nfc@1.0-service \
 	com.android.nfc_extras \
 	libnfc_nci \
 	libnfc_nci_jni \
