@@ -1,6 +1,6 @@
 
 # Inherit from common
-$(call inherit-product, device/samsung/j5-common/lineage.mk)
+$(call inherit-product, device/samsung/j5x-common/lineage.mk)
 
 $(call inherit-product, device/samsung/j5xnlte/device.mk)
 
