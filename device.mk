@@ -2,7 +2,7 @@
 $(call inherit-product-if-exists, vendor/samsung/j5xnlte/j5xnlte-vendor.mk)
 
 # Inherit from common
-$(call inherit-product, device/samsung/j5-common/device-common.mk)
+$(call inherit-product, device/samsung/j5x-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/j5xnlte
 
@@ -14,6 +14,8 @@ DEVICE_PACKAGE_OVERLAYS += $(LOCAL_PATH)/overlay
 
 #NFC
 #PRODUCT_PACKAGES += \
+#	android.hardware.nfc@1.0-impl \
+#	android.hardware.nfc@1.0-service \
 #	com.android.nfc_extras \
 #	libnfc_nci \
 #	libnfc_nci_jni \
