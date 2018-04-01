@@ -4,7 +4,7 @@ include device/samsung/j5x-common/BoardConfigCommon.mk
 LOCAL_PATH := device/samsung/j5xnlte
 
 # Asserts
-TARGET_OTA_ASSERT_DEVICE := j5xnlte
+TARGET_OTA_ASSERT_DEVICE := j5xnlte,j5xlte
 
 # Kernel
 TARGET_KERNEL_VARIANT_CONFIG := msm8916_sec_j5xnlte_eur_defconfig
