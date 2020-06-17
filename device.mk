@@ -6,6 +6,9 @@ $(call inherit-product, device/samsung/j5x-common/device-common.mk)
 
 LOCAL_PATH := device/samsung/j5xnlte
 
+# NFC
+$(call inherit-product, device/samsung/msm8916-common/nfc/pn547/product.mk)
+
 # System properties
 -include $(LOCAL_PATH)/system_prop.mk
 
